@@ -29,14 +29,14 @@
     <h1>Current Trends in Deep Learning</h1>
     <hr>
     <p>Co-written by: 
-      <i>Eirik Folkestad</i>, <i>Manu Gopinathan</i> & <i>Øyvind Nygard</i></p>
+      <font color="#22B14C"><i>Eirik Folkestad</i></font>, <font color="#22B14C"><i>Manu Gopinathan</i></font> & <font color="#22B14C"><i>Øyvind Nygard</i></font></p>
     <p>In the last decade, the area of artificial intelligence (AI) has exploded with
       interesting and promising results. With major achievements in image
       recognition, speech recognition and highly complex games, AI continues to 
       disrupt society. This blog post will discuss practical applications of AI,
       optimization and interpretability of deep learning models and
-      reinforcement learning (RL), based on the 2018 REWORK Deep Learning 
-      Summit in Toronto. Four software engineers from Knowit had the pleasure 
+      reinforcement learning (RL), based on the <u>2018 REWORK Deep Learning 
+      Summit</u> in Toronto. Four software engineers from <u>Knowit</u> had the pleasure 
       of travelling to Canada to attend this conference, and with renowned
       speakers such as Geoff Hinton attending, it turned out be an insightful
       experience.</p>
@@ -63,19 +63,19 @@
       optimizing code, which means that the efficiency of an algorithm written by
       a human can be improved by an AI. These are only a few of the possibilities
       with more autonomous AI.</p>
-    <p>As presented by Tzvi Aviv, Founder & CEO at AgriLogicAI, AI can lead to
+    <p>As <u>presented</u> by Tzvi Aviv, Founder & CEO at AgriLogicAI, AI can lead to
       major improvements in the agriculture and food sector. In his presentation
       he showed that AI can be used in conjunction with geospatial data to
       increase productivity, profitability and sustainability in the agriculture and
       food sector. By using remote sensing yield performance of soy varieties, soil
       data, weather data and genetic data of soy varieties, AgriLogicAi created an
-      Ensemble of Cubist model, a type of rule-based model, model which
+      Ensemble of Cubist model, <u>a type of rule-based model</u>, model which
       projected a 5% increase in soy yields by optimizing the selected soy variety
       given an area. This and other innovations to the agricultural food industry
       will become more and more important as we are facing a difficult time
       ahead with more challenging weather conditions.</p>
     <img src="img1.webp" style="width: 100%;">
-    <p>Nargiz Mammadova, founder & CEO at Destin AI, talked about the use of AI
+    <p>Nargiz Mammadova, founder & CEO at <u>Destin AI</u>, talked about the use of AI
       in immigration. To settle down in a new country you would have to fill out
       many forms and be approved for citizenship through various applications.
       Yet, before the actual application process, you would have to navigate
@@ -98,13 +98,16 @@
       high. In combination with a rapidly decreasing internal rate of return for
       research and development in the pharmaceutical industry, the old way of
       discovering new drugs is broken. AI needs to be further explored in this field
-      and, as mentioned in his paper, can most certainly help with this by aiding
+      and, as mentioned in his <u>paper</u>, can most certainly help with this by aiding
       in finding new drugs and personalize treatment according a person’s
       genome. With the human genome mapped and the large amount of datasets
       available, training sequence models capable of discovering genes with
       unfavourable traits and mutations is not far from reality.</p>
     <h2>Optimization and Robustness of Deep Learning</h2>
-    <p>Another big topic in the future of AI is optimization of deep learning and how to make deep neural networks more robust. A known example of how fragile neural networks can be, is this adversarial demonstration from Explaining and Harvesting Adversarial Examples:</p>
+    <p>Another big topic in the future of AI is optimization of deep learning and 
+      how to make deep neural networks more robust. 
+      A known example of how fragile neural networks can be, is this adversarial demonstration from 
+      <u>Explaining and Harvesting Adversarial Examples:</u></p>
     <img src="img2.webp" style="width: 100%;">
     <p>In this example the network can detect the panda in the image to the left. Now, if you alter that picture by adding a toned down image of noise with gibbon-like features, the network will classify the image as a gibbon. However, to the human eye the picture has not been altered at all.</p>
     <p>Researchers at McGill University are trying to address this by using Lipschitz regularization while performing adversarial training as presented at the REWORK deep learning summit Toronto 2018. The Lipschitz constant measures the amplification factor of a perturbation, and by adding this to the loss function during training of a neural network, one can improve the adversarial attack robustness with a significant amount.</p>
@@ -116,7 +119,7 @@
       runnable on your phone. One way Snapchat is trying to solve this issue is by
       model compression; how can we keep the high accuracy, but lower the
       computational complexity? Their idea is to use weight sampling, as
-      convolutional filters are, in their words, highly redundant. Snapchat has
+      convolutional filters are, in their words, <i>highly redundant</i>. Snapchat has
       developed new features, allowing 5x3 (15) weights be condensed to 7
       weights, thereby reducing the memory usage by more than 50%.</p>
     <p>The University of Guelph (UoG) are also working on deep learning
@@ -126,7 +129,7 @@
       working on methods to train networks with binary weights and activations at
       run time. In addition to memory advantages and higher speed, they report
       that the binary networks are also more resistant to adversarial attacks!</p>
-    <p>An older paper (2015) from Geoffrey Hinton also touches upon optimization
+    <p>An older <u>paper</u> (2015) from Geoffrey Hinton also touches upon optimization
       of deep learning by distilling the knowledge from an ensemble of models
       into a single model, thus reducing the need for multiple models and
       memory. Maybe this can minimize the need of processing power in the
